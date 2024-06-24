@@ -1,4 +1,4 @@
-import { Button, Card, Col, Form, Image, Input, Modal, Row, Space } from "antd";
+import { Button, Card, Col, Form, Image, Input, Modal, Row } from "antd";
 import { useGameHallController } from "./useGameHallController";
 import LineIcon from '../../assets/line-icon.png';
 import FacebookIcon from '../../assets/facebook-icon.png';

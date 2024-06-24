@@ -3,7 +3,7 @@ import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { ChatFrom, ChatInfo, ChatTools, ChatType } from "../../entities/Chat";
 import { Modal, notification } from "antd";
 import { debounce, throttle } from "lodash";
-import { child, get, onValue, push, ref, set, update } from "firebase/database";
+import { child, get, onValue, push, ref, set } from "firebase/database";
 import { database } from "../../utils/firebase";
 import { AuthContext } from "../../store/authProvider";
 import { GlobalContext } from "../../store/globalProvider";
